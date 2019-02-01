@@ -17,7 +17,7 @@ COPY requirements.txt /
 RUN pip install -r /requirements.txt
 
 # Set default AWS region
-ENV AWS_DEFAULT_REGION us-west-2
+ENV AWS_DEFAULT_REGION us-east-1
 
 EXPOSE 80
 
